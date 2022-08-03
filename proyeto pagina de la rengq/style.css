@@ -1,0 +1,61 @@
+/* importamos tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+    --primary-color: black;
+    --secodary-color: #e71d36;
+    --tercery-color:#ffba08;
+    --primary-font: 'Roboto', san-serif;
+    --secondary-font: 'Quicksand', san-serif;
+    --text-color: #dee2ff;
+}
+
+a:hover{
+    text-decoration: none;
+    }
+a:hover{
+ color: var(--primary-color);
+        
+    }
+
+
+body{ 
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.nav-item{ background-color: var(--primary-color);
+}
+.nav-link{
+    color: #dee2ff;
+}
+body{
+    background-image: url(/images/LaRenga_2020.jpg);
+     /* Nos aseguramos que la imagen de fondo este centrada vertical y horizontalmente en todo momento */
+  background-position: center center;/* La imagen de fondo no se repite */
+  background-repeat: no-repeat;
+ 
+  /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando la altura del contenido supere la altura de la imagen. */
+  background-attachment: fixed;
+  
+  /* La imagen de fondo se reescala cuando se cambia el ancho de ventana del navegador */
+  background-size: cover;
+
+  /* Fijamos un color de fondo para que se muestre mientras se está cargando la imagen de fondo o si hay problemas para cargarla  */
+  background-color: #464646;
+  font-family: 'Modern Antiqua', cursive;
+  font-size: 1em;
+   color: var(--text-color);
+}
+.logomenu   {
+   width: 50px;
+   height: 50px;
+}
+
+.text-center img{
+    padding-left: 
+    width: 50px;
+    height: 600px;
+}
